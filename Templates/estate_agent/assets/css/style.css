@@ -1,0 +1,131 @@
+
+body {
+  background-color: #f0f8ff;
+  /* Pastel blue background */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-item-1 {
+  flex: 0 1 5%; /* Adjust width as needed */
+}
+
+.flex-item-2 {
+  flex: 0 1 90%; /* Adjust width as needed */
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.flex-item-3 {
+  flex: 0 1 5%; /* Adjust width as needed */
+}
+
+.intro {
+  width: 80%;
+  padding: 0 10%;
+}
+
+.intro h2 {
+  text-align: center;
+}
+
+.intro p {
+  padding: 0 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.estate-agents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.property-listing {
+  width: 75%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  border-radius: 15px;
+  height: auto;
+}
+
+.property-listing .image-side {
+  width: 25%;
+  height: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+.property-details-image {
+  width: 200px;
+  /* Adjust width as needed */
+  height: 200px;
+  /* Adjust height as needed */
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.property-details {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.property-details h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.property-details p {
+  margin: 0;
+  text-align: justify;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+
+.property-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+}
+
+.property-footer .logo {
+  width: 50px;
+  height: auto;
+}
+
+.property-footer .contact-info {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.property-footer .contact-info a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
