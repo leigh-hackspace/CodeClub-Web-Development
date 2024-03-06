@@ -15,7 +15,7 @@ There are some template sites in so show examples of how to combine the elements
 - CSS Basics 
 
 # Templates
-[x] Fan Page for a rapper
-[x] Estate Agent
-[ ] Sandwich Website
-[ ] Portfolio Website
+- [x] Fan Page for a rapper
+- [x] Estate Agent
+- [ ] Sandwich Website
+- [ ] Portfolio Website
