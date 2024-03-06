@@ -15,7 +15,10 @@ There are some template sites in so show examples of how to combine the elements
 - CSS Basics 
 
 # Templates
-- [x] Fan Page for a rapper
-- [x] Estate Agent
-- [ ] Sandwich Website
-- [ ] Portfolio Website
+
+| Complete | name | Link |
+| :--: | :--: | :--: |
+| YES | Fan Page for a rapper | [HERE](/templates/fan_page/index.html) |
+| YES | Estate Agent | [HERE](/templates/fan_page/index.html)|
+| NO | Sandwich Website | [HERE](/templates/fan_page/index.html) |
+| NO | Portfolio Website | [HERE](/templates/fan_page/index.html) |
